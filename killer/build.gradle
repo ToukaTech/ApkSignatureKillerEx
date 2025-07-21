@@ -6,11 +6,11 @@ android {
     namespace 'bin.mt.signature'
     //noinspection GradleDependency
     compileSdk 34
-    ndkVersion '25.2.9519653'
+    ndkVersion '23.2.8568313'
 
     defaultConfig {
-        minSdk 19
-        //noinspection OldTargetApi
+        minSdk 17
+//noinspection OldTargetApi
         targetSdk 34
         externalNativeBuild {
             cmake {
