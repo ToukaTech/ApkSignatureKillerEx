@@ -6,11 +6,11 @@ android {
     namespace 'bin.mt.test'
     //noinspection GradleDependency
     compileSdk 34
-    ndkVersion '25.2.9519653'
+    ndkVersion '23.2.8568313'
 
     defaultConfig {
         applicationId "bin.mt.signature"
-        minSdk 19
+        minSdk 17
         //noinspection OldTargetApi
         targetSdk 34
         versionCode 1
